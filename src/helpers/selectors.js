@@ -26,3 +26,15 @@ export function getInterview(state, interview) {
   // returns null if no interview is booked
   return null
 }
+
+export function getInterviewersForDay(state, day) {
+  let result = []
+  for (const i of state.days){
+    if (i.name === day) {
+      for (const j of i.interviewers){
+        result.push(state.interviewers[j])
+      }
+    }
+  }
+  return result
+}
