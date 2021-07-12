@@ -78,7 +78,6 @@ useEffect(() => {
     axios.get('api/interviewers')
   ]).then(axios.spread((response1, response2, response3) => {
     setState(prev => ({...prev, days: response1.data, appointments: response2.data, interviewers: response3.data }))
-    console.log(response3.data)
   }))
   .catch(error =>
     console.log(error));
