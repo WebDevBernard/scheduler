@@ -13,3 +13,16 @@ export function getAppointmentsForDay(state, day) {
   //returns empty array if no match
   return result
 }
+
+export function getInterview(state, interview) {
+  if (interview){
+    // returns id, name, avatar
+    const interviewData = state.interviewers[interview.interviewer]
+    // returns student name
+    const studentData = interview.student
+    // returns an object with interview data
+    return {interviewer: interviewData, student: studentData}
+  }
+  // returns null if no interview is booked
+  return null
+}
