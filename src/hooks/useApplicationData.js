@@ -3,6 +3,10 @@ import axios from "axios";
 
 export default function useApplicationData(props) {
 
+// console.log("BEFORE: ", state.days[0].spots)
+  // your code to update the spots goes here
+// console.log("AFTER: ", state.days[0].spots)
+  
 const [state, setState] = useState({
   day: "Monday",
   days: [],
