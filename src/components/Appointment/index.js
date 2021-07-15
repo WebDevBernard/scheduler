@@ -43,7 +43,7 @@ function deleteSpot(id) {
   .catch(error => transition(ERROR_DELETE, true));
 }
 return (
-  <article className="appointment">
+  <article className="appointment" data-testid="appointment">
     <Header time={props.time} /> 
       {mode === EMPTY && <Empty onAdd={() => transition(CREATE)} />}
       {mode === SAVING && ( <Status message={"Saving..."} />)}
@@ -69,7 +69,7 @@ return (
         />)}
       {mode === ERROR_DELETE && (
         <Error
-          message={"Error Deleteing"}
+          message={"Error Deleting"}
           onClose={back}
         />)}
       {mode === SHOW && (
