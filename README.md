@@ -1,23 +1,17 @@
 # Interview Scheduler
 
-## Setup
+A single page app built with React. Users can schedule, edit or cancel interviews.  This is a tutorial project built at Lighthouse Labs used to learn React.
 
-Install dependencies with `npm install`.
+## SCREENSHOTS
 
-## Running Webpack Development Server
+!["VIEW 1"](URL)
+!["VIEW 2"](URL)
 
-```sh
-npm start
-```
+## Dependencies
 
-## Running Jest Test Framework
-
-```sh
-npm test
-```
-
-## Running Storybook Visual Testbed
-
-```sh
-npm run storybook
-```
+- axios: "^0.21.1",
+- classnames: "^2.2.6",
+- normalize.css: "^8.0.1",
+- react: "^16.9.0",
+- react-dom: "^16.9.0",
+- react-scripts: "3.0.0"
