@@ -4,8 +4,8 @@ A single page app built with React. Users can schedule, edit or cancel interview
 
 ## SCREENSHOTS
 
-!["VIEW 1"](URL)
-!["VIEW 2"](URL)
+!["VIEW 1"](https://github.com/bernard9/scheduler/blob/master/docs/localhost_8000_%20(2).png)
+!["VIEW 2"](https://github.com/bernard9/scheduler/blob/master/docs/localhost_8000_.png)
 
 ## Dependencies
 
