@@ -25,9 +25,7 @@ export default function useApplicationData(props) {
           ...state,
           appointments
           });
-          // console.log("BEFORE: ", state.days[0].spots)
           updateSpots(id)
-          // console.log("AFTER: ", state.days[0].spots)
         })
     }
   
@@ -46,9 +44,7 @@ export default function useApplicationData(props) {
           ...state,
           appointments,
           });
-          // console.log("BEFORE: ", state.days[0].spots)
           updateSpots(id)
-          // console.log("AFTER: ", state.days[0].spots)
         })
     }
   
