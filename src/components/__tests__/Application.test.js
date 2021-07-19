@@ -9,8 +9,7 @@ import {
   getByAltText, 
   getByPlaceholderText, 
   queryByText, 
-  queryByAltText, 
-  prettyDOM } 
+  queryByAltText} 
   from "@testing-library/react";
 import Application from "components/Application";
 import axios from "axios";
